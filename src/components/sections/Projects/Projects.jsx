@@ -40,7 +40,7 @@ const Projects = () => {
         </h3>
         <Link
           to="/projects"
-          className="bg-greyColor text-blackColor py-2 px-4 rounded-lg text-menuBtn "
+          className=" text-whiteColor py-2 px-4 rounded-lg projectBtn text-menuBtn "
         >
           SEE ALL WORK
         </Link>
