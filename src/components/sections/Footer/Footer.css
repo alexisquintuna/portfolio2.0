@@ -1,0 +1,68 @@
+/* .line__across::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(to right, #fff 50%, rgba(255, 255, 255, 0) 33%),
+    linear-gradient(to right, transparent 50%, transparent 50%);
+  display: block;
+  background-size: 200% 100%;
+  background-position: 100%;
+  bottom: 0px;
+  left: 0;
+  transition: all 0.5s ease-in-out;
+}
+
+.line__across:hover {
+  background-position: 0%;
+}
+
+.line__across:hover::before {
+  background-position: 0%;
+} */
+
+.line__across {
+  position: relative;
+}
+
+.line__across::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  border-radius: 4px;
+  background-color: #fff;
+  bottom: 0;
+  left: 0;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+.line__across:hover::before {
+  transform-origin: left;
+  transform: scaleX(1);
+}
+
+.socials__container a {
+  color: var(--text);
+  text-decoration: none;
+  transition: 400ms;
+}
+
+#linkedIn__footer:hover {
+  color: #0b66c2;
+}
+
+#Github__footer:hover {
+  color: #8200f3;
+}
+
+#Dribbble__footer:hover {
+  color: #de4b84;
+}
+
+#Codepen__footer:hover {
+  color: #ffffff;
+}
+

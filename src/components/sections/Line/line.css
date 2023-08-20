@@ -1,0 +1,24 @@
+.divider {
+  height: 1px;
+  background: white;
+  width: 0;
+  transition: width 2s ease;
+  will-change: width;
+}
+
+.animate-divider {
+  width: 100%;
+}
+
+.verticalLine {
+  width: 1px;
+  height: 0;
+  background: #d2dbde;
+  margin: 0 2rem;
+  transition: height 2s ease;
+  will-change: height;
+}
+
+.animate-divider-vertical {
+  height: 100%;
+}

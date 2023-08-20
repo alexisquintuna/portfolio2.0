@@ -1,0 +1,8 @@
+.Astra{
+    color: #F16547;
+    transition: 250ms ease-in-out;
+}
+
+.Astra:hover {
+    color: rgb(160, 47, 188);
+}
