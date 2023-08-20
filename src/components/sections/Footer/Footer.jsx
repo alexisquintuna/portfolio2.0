@@ -2,7 +2,7 @@ import Resume from "../../images/AlexisQuintunaResume2023.pdf";
 import "./Footer.css";
 const Footer = () => {
   return (
-    <div className="max-[350px]:hidden text-footer footer__container w-full flex py-4 px-8 md:px-16 justify-between fixed bottom-0 bg-mainColor">
+    <div className="max-[350px]:hidden text-footer footer__container w-full flex py-4 px-8 md:px-16 justify-between bottom-0 bg-mainColor">
       <p className="hidden md:inline-block">
         ©2023 • Designed & Developed by{" "}
         <a
