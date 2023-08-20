@@ -4,6 +4,8 @@ import flowers from "../../images/AboutMe/Flowers.png";
 import BWMe from "../../images/AboutMe/Me.png";
 import coding from "../../images/AboutMe/Coding.png";
 
+import ScrollToTop from "../../animations/ScrollToTop";
+
 const data = [
   {
     id: 0,
@@ -45,6 +47,7 @@ const AboutSection = () => {
 
   return (
     <div className="w-full flex flex-col sm:flex-row justify-end">
+      <ScrollToTop />
       <div className="w-full flex flex-col items-center sm:items-start sm:w-1/2 md:w-2/5 relative sm:fixed left-0 sm:left-20 pt-20 sm:pt-40">
         <h3 className="text-biggerCardTitle text-whiteColor">About</h3>
         <div className="flex">
