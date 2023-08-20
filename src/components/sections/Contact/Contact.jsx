@@ -31,7 +31,7 @@ const Contact = () => {
     <div id="contact" className="flex flex-col md:flex-row justify-between">
       <div className="pb-4 md:py-0">
         <h3 className="text-cardTitle">Contact</h3>
-        <h2 className="text-muchBiggerCardTitle text-whiteColor">
+        <h2 className="text-muchBiggerCardTitleMobile sm:text-muchBiggerCardTitle text-whiteColor">
           Memorable, Engaging,
           <br />
           Personalized

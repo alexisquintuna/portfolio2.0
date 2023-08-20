@@ -7,7 +7,7 @@ import GenereNatus from "../../images/ProjectsImages/GenereNatus2.0/GenereNatus2
 import LoopStudios from "../../images/ProjectsImages/LoopStudios/LoopStudiosMain.jpg";
 import Alexis from "../../images/ProjectsImages/AlexisQuintuna1.0/AlexisQMain.jpg";
 import VerticalLine from "../Line/VerticalLine";
-import Line from "../Line/line"
+import Line from "../Line/line";
 
 const Projects = () => {
   const projects = [
@@ -59,7 +59,9 @@ const Projects = () => {
             <h4 className="text-navText">2023</h4>
           </div>
         </article>
-        <Line />
+        <div className="w-full hidden sm:block">
+          <Line />
+        </div>
         <div className="flex flex-col md:flex-row w-full justify-between pb-0 md:pb-8">
           <article className="px-0 md:px-8">
             <Link to={`/projects/${projects[1].id}`} className="rounded-3xl">

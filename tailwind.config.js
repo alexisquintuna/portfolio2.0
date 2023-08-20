@@ -27,7 +27,7 @@ module.exports = {
         letterSpacing: '0em',
         fontWeight: '500',
       }],
-      'mobileTitle': ['7rem', {
+      'mobileTitle': ['5rem', {
         lineHeight: 'auto',
         letterSpacing: '0em',
         fontWeight: '700',
@@ -48,6 +48,11 @@ module.exports = {
         fontWeight: '600',
       }],
       'muchBiggerCardTitle': ['64px', {
+        lineHeight: 'auto',
+        letterSpacing: '0em',
+        fontWeight: '600',
+      }],
+      'muchBiggerCardTitleMobile': ['4rem', {
         lineHeight: 'auto',
         letterSpacing: '0em',
         fontWeight: '600',

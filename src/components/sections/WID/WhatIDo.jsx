@@ -40,7 +40,9 @@ const WhatIDo = () => {
             </p>
           </article>
         </div>
-        <Line />
+        <div className="hidden w-full sm:block">
+          <Line />
+        </div>
         <div className="flex w-full justify-around flex-col sm:flex-row">
           <article className="w-full sm:w-cardWidth px-4 pt-4 sm:pt-0">
             <div className="flex items-center text-cardSubTitle text-whiteColor">

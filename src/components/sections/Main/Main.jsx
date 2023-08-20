@@ -4,8 +4,8 @@ import "./Main.css";
 
 const Main = () => {
   return (
-    <div className="flex flex-col justify-center h-screen">
-      <h2 className="text-mobileTitle typing-animation md:text-title text-greyColor">
+    <div className="flex flex-col pt-24 sm:pt-0 sm: justify-center h-fit sm:h-screen">
+      <h2 className="text-mobileTitle md:text-title text-greyColor">
         <span className="text-whiteColor">ALEX</span>IS QUINTUÑA
       </h2>
       <div className="flex w-full justify-between py-6 items-cente">
