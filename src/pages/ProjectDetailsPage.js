@@ -16,8 +16,8 @@ const ProjectDetailsPage = () => {
   }
 
   return (
-    <div className="flex md:flex-row flex-col relative h-screen px-8 md:px-16">
-      <div className="w-full md:w-1/3 bg-mainColor sticky top-20 flex flex-col justify-center">
+    <div className="flex md:flex-row flex-col relative h-fit sm:h-screen px-8 md:px-16">
+      <div className="w-full md:w-1/3 bg-mainColor relative sm:sticky top-20 flex flex-col justify-center">
         <div className="w-full flex flex-col justify-between">
           <h2 className="text-biggerCardTitle text-whiteColor">
             {project.title}
