@@ -2,6 +2,7 @@ import { useParams } from "react-router-dom";
 import projectsData from "../components/data/projectsData";
 import LineDivider from "../components/sections/Line/line";
 import VerticalLine from "../components/sections/Line/VerticalLine";
+import ScrollToTop from "../components/animations/ScrollToTop";
 const ProjectDetailsPage = () => {
   const { projectId } = useParams();
 
@@ -17,6 +18,7 @@ const ProjectDetailsPage = () => {
 
   return (
     <div className="flex md:flex-row flex-col relative h-fit sm:h-screen px-8 md:px-16">
+      <ScrollToTop />
       <div className="w-full md:w-1/3 bg-mainColor relative sm:sticky top-20 flex flex-col justify-center">
         <div className="w-full flex flex-col justify-between">
           <h2 className="text-biggerCardTitle text-whiteColor">
