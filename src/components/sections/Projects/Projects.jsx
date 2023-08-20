@@ -18,7 +18,7 @@ const Projects = () => {
       id: "TrainingGrounds",
     },
     {
-      id: "AlexisQuintuna1.0",
+      id: "PersonalPorfolio2.0",
     },
     {
       id: "LoopStudios",

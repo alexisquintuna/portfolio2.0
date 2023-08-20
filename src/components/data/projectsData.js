@@ -86,7 +86,7 @@ const projectsData = [
     ],
   },
   {
-    id: "TraininggGrounds",
+    id: "TrainingGrounds",
     title: "Training Grounds",
     description: "I redesigned the website for TrainingGrounds, a daycare company, using Squarespace. The new website is more user-friendly and visually appealing, and it has helped to increase the company's target audience by 15%.",
     tools: ["SQUARESPACE", "FIGMA"],
