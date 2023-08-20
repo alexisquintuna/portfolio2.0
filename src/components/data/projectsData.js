@@ -168,7 +168,7 @@ const projectsData = [
     tools: ["REACT", "TAILWIND CSS", "EMAIL.JS", "FIGMA"],
     year: "2022",
     websiteTitle: "personalportfolio2.0",
-    website: "https://www.alexisquintuna.com",
+    website: "https://my-website-porfolio.vercel.app/",
     imgs: [AQM, AQ2, AQ3, AQ4, AQ5, AQ6],
     longerDescription: [
       "I created a portfolio website for myself using React as the framework. React is a JavaScript framework that is used to create interactive web applications. I chose React because I wanted to learn a new framework and to challenge myself to create a complex project.",
