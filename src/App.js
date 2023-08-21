@@ -1,4 +1,3 @@
-import React from "react";
 import "./App.css";
 import Header from "./components/sections/Header/Header";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -12,9 +11,9 @@ import Pebbles from "./pages/Pebbles";
 
 function App() {
   return (
-    <div className="bg-red-900 h-screen relative">
+    <div className="relative">
       <Router>
-      <Header />
+        <Header />
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -23,7 +22,7 @@ function App() {
           <Route path="/projects/:projectId" element={<ProjectDetailsPage />} />
           <Route path="/pebbles" element={<Pebbles />} />
         </Routes>
-      <Footer/>
+        <Footer />
       </Router>
     </div>
   );
