@@ -13,8 +13,8 @@ const Pebbles = () => {
           </div>
           <div className="w-full flex py-44 justify-end">
             <p className="text-subTitle text-right w-1/2">
-              Pebbles is my cat, my daughter, my baby. She's now 5 years 28 days
-              old. I got her in November 2018.
+              Pebbles is my cat, my daughter, my baby. She's now 5 years old. I
+              got her in November 2018.
             </p>
           </div>
           <div className="w-1/4 pb-20">
