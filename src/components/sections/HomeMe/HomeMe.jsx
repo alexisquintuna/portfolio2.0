@@ -15,17 +15,10 @@ const HomeMe = () => {
             I am a self-taught web developer with 3 years of experience in full
             stack development. I am passionate about creating unique user
             experiences and telling a company's story through the art of motion
-            and design. I am currently freelancing for various studios,{" "}
-            <a
-              href="https://astrastudios.us/"
-              rel="noreferrer"
-              target="_blank"
-              className="Astra"
-            >
-              Astra Studio
-            </a>{" "}
-            being one of them. I am also a graduate of a coding bootcamp, where
-            I learned the skills I needed to pursue my passion for development.
+            and design. I am currently freelancing for various studios, but
+            always looking for other opportunities. I am also a graduate of a
+            coding bootcamp, where I learned the skills I needed to pursue my
+            passion for development.
           </p>
           <p className="text-right h-full pt-8 md:pt-0 pl-0 md:pl-10">
             When I'm not working, I enjoy getting lost in music, building LEGOs,

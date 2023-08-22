@@ -13,10 +13,10 @@ const Header = () => {
                 <p>Based in Columbus, OH</p>
             </div>
             <div className=' w-1/3 flex justify-end'>
-                <div className='text-whiteColor text-navText'>
-                    <Link className="px-4" to="/projects">Projects</Link>
-                    <a className="px-4" href="/#contact">Contact</a>
-                    <Link className="px-4" to="/about">About</Link>
+                <div className='text-whiteColor flex gap-4 text-navText'>
+                    <Link className="header_projects line__across-header" to="/projects">Projects</Link>
+                    <a className="header_contact line__across-header" href="/#contact">Contact</a>
+                    <Link className="header_about line__across-header" to="/about">About</Link>
                 </div>
             </div>
         </header>
