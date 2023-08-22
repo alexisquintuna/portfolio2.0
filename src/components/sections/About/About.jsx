@@ -5,6 +5,7 @@ import BWMe from "../../images/AboutMe/Me.png";
 import coding from "../../images/AboutMe/Coding.png";
 
 import ScrollToTop from "../../animations/ScrollToTop";
+import { Link } from "react-router-dom";
 
 const data = [
   {
@@ -89,7 +90,7 @@ const AboutSection = () => {
               In my spare time, I enjoy fine dining, driving with the windows
               down while listening to music, building LEGOS, and making lattes
               at my local coffee shop. I love fashion, cars, and{" "}
-              <span className="text-pink">pebbles</span>. I also enjoy sharing
+              <Link to="/Pebbles" className="text-pink">Pebbles</Link>. I also enjoy sharing
               my knowledge and experiences with others.
             </p>
           </div>
