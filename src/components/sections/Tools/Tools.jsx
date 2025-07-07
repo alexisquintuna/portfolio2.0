@@ -12,6 +12,7 @@ import MongoDB from "../../images/toolsImages/mongodb.png";
 import Postman from "../../images/toolsImages/postman.png";
 import Firebase from "../../images/toolsImages/firebase.png";
 import VerticalLine from "../Line/VerticalLine";
+import Webflow from "../../images/toolsImages/webflow.svg"
 
 const data = [
   {
@@ -81,21 +82,26 @@ const data = [
   },
   {
     id: 13,
+    photo: Webflow,
+    name: "Webflow",
+  },
+  {
+    id: 14,
     photo: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/dce29357-31f7-4a01-a737-23e473625162/d49462h-cad148b2-cc15-41dc-88bd-a0121705ae57.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2RjZTI5MzU3LTMxZjctNGEwMS1hNzM3LTIzZTQ3MzYyNTE2MlwvZDQ5NDYyaC1jYWQxNDhiMi1jYzE1LTQxZGMtODhiZC1hMDEyMTcwNWFlNTcuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.p3uszvKRYaQepDc1zptYWz8lNSBQtZZ3x_6rWas-wXY",
     name: "",
   },
   {
-    id: 14,
+    id: 15,
     photo: Postman,
     name: "Postman",
   },
   {
-    id: 15,
+    id: 16,
     photo: MongoDB,
     name: "MongoDB",
   },
   {
-    id: 16,
+    id: 17,
     photo: Firebase,
     name: "Firebase",
   },

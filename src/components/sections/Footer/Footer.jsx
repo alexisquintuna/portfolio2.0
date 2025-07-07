@@ -1,5 +1,5 @@
 // import React, { useState, useEffect } from "react";
-import Resume from "../../images/AlexisQuintunaResume2023.pdf";
+import Resume from "../../images/Alexis_Quintuna_Resume.docx.pdf";
 import "./Footer.css";
 const Footer = () => {
   // const [isFooterVisible, setIsFooterVisible] = useState(true);
